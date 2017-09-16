@@ -1,5 +1,3 @@
-# Aaron Lee
-
 ## About me
 
 My life is about creating, blogging and talking about [digital health and patient UX](https://healthinnovation.kaiserpermanente.org).
