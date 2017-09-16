@@ -2,7 +2,7 @@
 
 My life is about creating, blogging and talking about [digital health and patient UX](https://healthinnovation.kaiserpermanente.org).
 I'm a fan of happiness design, visual communications, language and baking.
-Much of my time is spent fighting cancer—both for me and others in need.
+Much of my spare time is spent fighting cancer, both for me and others in need.
 
 ## My work
 I share simple projects that should be open to all.
