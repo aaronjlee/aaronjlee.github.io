@@ -10,6 +10,79 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: normal;
+ font-weight: 400;
+   src:
+     url('Vollkorn-Regular.woff2') format('woff2'),
+     url('Vollkorn-Regular.woff') format('woff'),
+     url('Vollkorn-Regular.eot') format('embedded-opentype');
+}
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: italic;
+ font-weight: 400;
+   src:
+     url('Vollkorn-Italic.woff2') format('woff2'),
+     url('Vollkorn-Italic.woff') format('woff'),
+     url('Vollkorn-Italic.eot') format('embedded-opentype');
+}
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: normal;
+ font-weight: 600;
+   src:
+     url('Vollkorn-Semibold.woff2') format('woff2'),
+     url('Vollkorn-Semibold.woff') format('woff'),
+     url('Vollkorn-Semibold.eot') format('embedded-opentype');
+}
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: italic;
+ font-weight: 600;
+   src:
+     url('Vollkorn-SemiboldItalic.woff2') format('woff2'),
+     url('Vollkorn-SemiboldItalic.woff') format('woff'),
+     url('Vollkorn-SemiboldItalic.eot') format('embedded-opentype');
+}
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: normal;
+ font-weight: 700;
+   src:
+     url('Vollkorn-Bold.woff2') format('woff2'),
+     url('Vollkorn-Bold.woff') format('woff'),
+     url('Vollkorn-Bold.eot') format('embedded-opentype');
+}
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: italic;
+ font-weight: 700;
+   src:
+     url('Vollkorn-BoldItalic.woff2') format('woff2'),
+     url('Vollkorn-BoldItalic.woff') format('woff'),
+     url('Vollkorn-BoldItalic.eot') format('embedded-opentype');
+}
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: normal;
+ font-weight: 900;
+   src:
+     url('Vollkorn-Black.woff2') format('woff2'),
+     url('Vollkorn-Black.woff') format('woff'),
+     url('Vollkorn-Black.eot') format('embedded-opentype');
+}
+@font-face {
+ font-family: 'Vollkorn';
+ font-style: italic;
+ font-weight: 900;
+   src:
+     url('Vollkorn-BlackItalic.woff2') format('woff2'),
+     url('Vollkorn-BlackItalic.woff') format('woff'),
+     url('Vollkorn-BlackItalic.eot') format('embedded-opentype');
+}
+
 html {
     color: #515151;
     font: 22px / 1.4 'Vollkorn', 'Georgia', serif;
