@@ -173,19 +173,25 @@ body {
 
 header {
   background: #fbeef3;
+  /* border-bottom: 1px solid #ca054d; */
   display: block;
   margin-bottom: 1em;
-  padding: 1.2em 0 1em;
+  padding: 1em 0;
 }
 
 h1 {
   color: #212121;
+  /* font-family: 'BenchNine', sans-serif; */
   font-size: 1em;
   font-variant: small-caps;
   font-weight: 400;
   margin: 0;
   text-align: center;
   text-transform: lowercase;
+}
+
+h1 a {
+  font-weight: 400 !important;
 }
 
 .greyscale {
