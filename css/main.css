@@ -168,7 +168,6 @@ textarea {
    ========================================================================== */
 
 body {
-  max-width: 38em;
   padding-bottom: 1em;
 }
 
@@ -258,6 +257,7 @@ a:hover {
 
 main {
   display: block;
+  max-width: 38em;
   padding: 0 2em;
 }
 
