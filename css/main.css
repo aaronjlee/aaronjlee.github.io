@@ -174,16 +174,17 @@ body {
 header {
   background: #fbeef3;
   /* border-bottom: 1px solid #ca054d; */
-  display: block;
+  display: flex;
+  font-size: .9em;
+  justify-content: space-between;
   margin-bottom: 1em;
-  padding: 1em 0;
+  padding: 1em;
 }
 
 h1 {
   color: #212121;
-  /* font-family: 'BenchNine', sans-serif; */
-  font-size: 1em;
   font-variant: small-caps;
+  font-size: inherit;
   font-weight: 400;
   margin: 0;
   text-align: center;
@@ -198,19 +199,41 @@ h1 a {
   color: #eba4be;
 }
 
+header ul {
+  display: flex;
+  font-variant: small-caps;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: lowercase;
+}
+header ul li {
+  justify-content: space-between;
+}
+header ul li:first-child {
+  padding-right: .7em;
+}
+header ul li a {
+  font-weight: 400 !important;
+}
+
 /* All inspired by Tobias Ahlin at http://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
 
-h1 > a {
+h1 > a,
+.animated-underline {
   position: relative;
   color: #212121;
   text-decoration: none;
 }
 
-h1 > a:hover {
+h1 > a:hover,
+.animated-underline:hover {
   color: #212121;
 }
 
-h1 > a:before {
+h1 > a:before,
+.animated-underline:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -225,11 +248,14 @@ h1 > a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-h1 > a:hover:before {
+h1 > a:hover:before,
+.animated-underline:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+/** end of example **/
 
 h2 {
   border-bottom: 5px solid #eba4be; /* #ca054d; */
@@ -366,6 +392,15 @@ main {
     /* Style adjustments for viewports that meet the condition */
     html {
       font: 18px / 1.4 'Vollkorn', 'Georgia', serif;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1em 0;
+    }
+    h1 {
+      padding: 0.5em 0 0.7em;
     }
 }
 
