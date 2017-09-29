@@ -298,7 +298,9 @@ main {
   text-transform: lowercase;
 }
 
-
+a .fa {
+   color: #ca054d;
+}
 
 
 
